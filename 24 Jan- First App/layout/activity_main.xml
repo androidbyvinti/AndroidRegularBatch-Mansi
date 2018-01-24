@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bmpl.android.firstapp.MainActivity">
+
+    <TextView
+        android:id="@+id/firstText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your first number"
+        android:textSize="22sp"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:layout_below="@+id/firstText"
+        android:text="hello data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstEditText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstEditText"
+        android:text="Enter second value"
+        android:textSize="22sp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/secondTextView"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondTextView"/>
+
+</RelativeLayout>
