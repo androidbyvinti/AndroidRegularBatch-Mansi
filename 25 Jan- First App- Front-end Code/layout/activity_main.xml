@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bmpl.android.firstapp.MainActivity"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/firstText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your first number"
+        android:textSize="22sp"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/firstText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstEditText"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstEditText"
+        android:text="Enter second value"
+        android:textSize="22sp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/secondTextView"/>
+
+    <EditText
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondTextView"
+        android:id="@+id/secondEditText"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="Check Result"/>
+
+</RelativeLayout>
