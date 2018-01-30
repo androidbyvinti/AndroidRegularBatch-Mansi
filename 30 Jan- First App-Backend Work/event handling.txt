@@ -1,0 +1,8 @@
+Event Handling --> To handle events --> 
+
+Events --> button click, key press, touch, scroll, etc
+
+Tools : 
+
+1. Event Listener
+2. Event Handler
