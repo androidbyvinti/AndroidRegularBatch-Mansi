@@ -1,0 +1,15 @@
+Loops --> when we have to repeat a particular statement n no. of times
+
+	--> while 
+	--> do-while
+	--> for
+
+	--> 3 mandatory :	
+	initialization, condition, increment/decrement
+
+	initialization
+
+	while(condition){
+		statement
+		increment or decrement
+	}

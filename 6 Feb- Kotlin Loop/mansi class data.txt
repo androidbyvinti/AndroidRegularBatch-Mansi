@@ -1,0 +1,34 @@
+Kotlin --> 
+
+identifier --> variable name or class name or function name, etc 
+
+keywords --> reserved words or words which have some predefined meaning and this meaning is fed into the compiler.
+--> Int, Float, when, if, else, etc
+
+variables: which has a value and a type --> container which contains a value and type
+
+
+var : variable whose value can be changed either at compile time or at run time
+
+	eg: var variable_name = variable_value
+
+
+int value;	// class 
+
+
+variable 
+
+val : variable whose value is fixed
+
+
+Datatypes in Kotlin --> 
+
+
+
+
+
+
+
+
+
+
