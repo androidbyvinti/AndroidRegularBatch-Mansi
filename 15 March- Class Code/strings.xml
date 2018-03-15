@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GridView</string>
+    <string name="imageOne">"http://www.uniwallpaper.com/static/images/butterfly-wallpaper.jpeg"</string>
+    <string name="imageTwo">"https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg"</string>
+    <string name="imageThree">"https://img00.deviantart.net/e2e6/i/2012/339/8/a/png_material_by_moonglowlilly-d5n4w1c.png"</string>
+    <string name="imageFour">"https://i.stack.imgur.com/ILTQq.png"</string>
+    <string name="imageFive">"https://orig00.deviantart.net/06cf/f/2013/117/f/a/red_rose_png_1_by_mysticemma-d63699y.png"</string>
+    <string name="imageSix">"http://childhoodkingdom.com/wp-content/uploads/2016/12/SSB4U3D_Pikachu.png"</string>
+    <string name="imageSeven">"https://i.imgur.com/EyXjS8r.png"</string>
+    <string name="imageEight">"http://www.pngpix.com/wp-content/uploads/2016/11/PNGPIX-COM-Bugs-Bunny-PNG-Transparent-Image.png"</string>
+</resources>
