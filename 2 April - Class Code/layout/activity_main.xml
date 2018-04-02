@@ -4,15 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:custom="http://schemas.android.com/tools"
-    tools:context="com.bmpl.quizapp.MainActivity">
+    tools:context="com.vinti.testapp.MainActivity"
+    android:background="@drawable/splash_background">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
         android:text="Quiz App"
-        android:textSize="42sp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp" />
+        android:textColor="@android:color/white"
+        android:textSize="50sp" />
 
 </RelativeLayout>

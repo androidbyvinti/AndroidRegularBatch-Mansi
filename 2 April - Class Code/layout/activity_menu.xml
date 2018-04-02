@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vinti.testapp.MenuActivity"
+    android:background="@drawable/splash_background"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:focusable="true"
+            android:clickable="true"
+            android:background="@drawable/button_style"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:onClick="buttonClicked"
+            android:id="@+id/cButton">
+
+            <Button
+                android:enabled="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:textSize="32sp"
+                android:textColor="@android:color/white"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cPlusButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_style"
+            android:gravity="center"
+            android:layout_marginLeft="6dp"
+            android:onClick="buttonClicked">
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C++"
+                android:textSize="32sp"
+                android:textColor="@android:color/white"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:id="@+id/javaButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_style"
+            android:gravity="center"
+            android:onClick="buttonClicked">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Java"
+                android:textSize="32sp"
+                android:textColor="@android:color/white"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/kotlinButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_style"
+            android:gravity="center"
+            android:layout_marginLeft="6dp"
+            android:onClick="buttonClicked">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kotlin"
+                android:textSize="32sp"
+                android:textColor="@android:color/white"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:id="@+id/pythonButton"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_style"
+            android:gravity="center"
+            android:onClick="buttonClicked">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Python"
+                android:textSize="32sp"
+                android:textColor="@android:color/white"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_style"
+            android:gravity="center"
+            android:layout_marginLeft="6dp"
+            android:onClick="buttonClicked"
+            android:id="@+id/androidButton">
+
+            <Button
+                android:drawablePadding="-25dp"
+                android:drawableTop="@drawable/ic_launcher_foreground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android"
+                android:textSize="32sp"
+                android:textColor="@android:color/white"
+                android:paddingTop="2dp"
+                android:paddingBottom="10dp"
+                style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

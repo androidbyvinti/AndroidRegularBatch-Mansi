@@ -1,3 +1,84 @@
 <resources>
-    <string name="app_name">QuizApp</string>
+    <string name="app_name">Test App</string>
+    <string-array name="cQuestions">
+        <item>Who developed C Language?</item>
+        <item>What is the extension of header file?</item>
+        <item>What is the size of char in C?</item>
+        <item>What is the purpose of ?:</item>
+        <item>What is the use of pointers?</item>
+    </string-array>
+
+    <string-array name="cOptions">
+        <item>Dennis Ritchie</item>
+        <item>Andy Rubin</item>
+        <item>James Gosling</item>
+        <item>Jet Brains</item>
+        <item>.hf</item>
+        <item>.hfl</item>
+        <item>.h</item>
+        <item>.m</item>
+        <item>1 byte</item>
+        <item>2 bytes</item>
+        <item>4 bytes</item>
+        <item>8 bytes</item>
+        <item>Loops</item>
+        <item>Decision Making</item>
+        <item>Functions</item>
+        <item>Pointers</item>
+        <item>Points to the address of variable</item>
+        <item>Points to the address of function</item>
+        <item>Used for multiplication</item>
+        <item>Used for value assignment</item>
+    </string-array>
+
+
+    <string-array name="canswers">
+        <item>Dennis Ritchie</item>
+        <item>.h</item>
+        <item>1 byte</item>
+        <item>Decision Making</item>
+        <item>Points to the address of variable</item>
+    </string-array>
+
+    <string-array name="cPlusQuestions">
+        <item>Who developed C Language?</item>
+        <item>What is the extension of header file?</item>
+        <item>What is the size of char in C?</item>
+        <item>What is the purpose of ?:</item>
+        <item>What is the use of pointers?</item>
+    </string-array>
+
+    <string-array name="cPlusOptions">
+        <item>Dennis Ritchie</item>
+        <item>Andy Rubin</item>
+        <item>James Gosling</item>
+        <item>Jet Brains</item>
+        <item>.hf</item>
+        <item>.hfl</item>
+        <item>.h</item>
+        <item>.m</item>
+        <item>1 byte</item>
+        <item>2 bytes</item>
+        <item>4 bytes</item>
+        <item>8 bytes</item>
+        <item>Loops</item>
+        <item>Decision Making</item>
+        <item>Functions</item>
+        <item>Pointers</item>
+        <item>Points to the address of variable</item>
+        <item>Points to the address of function</item>
+        <item>Used for multiplication</item>
+        <item>Used for value assignment</item>
+    </string-array>
+
+
+    <string-array name="cPlusanswers">
+        <item>Dennis Ritchie</item>
+        <item>.h</item>
+        <item>1 byte</item>
+        <item>Decision Making</item>
+        <item>Points to the address of variable</item>
+    </string-array>
+
+
 </resources>
